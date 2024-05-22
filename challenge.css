@@ -1,0 +1,52 @@
+body{
+width: 100vh;
+height: auto;
+background-color: aliceblue;
+
+}
+
+
+button{
+margin: 5px;
+    padding-left: 10px;
+  background: antiquewhite;  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border-color: azure;
+}
+
+button:hover{
+
+    background: blue;
+    transform: scale(2);
+}
+
+
+input{
+
+    margin: 10px;
+   
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0;
+
+}
+
+input:focus{
+color: rgb(138, 88, 14);
+border: 2px;
+border-radius: 10px;
+border-color: rebeccapurple;
+
+}
+    
+a{
+
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+
+    text-decoration:underline ;
+    color: blue;
+}
